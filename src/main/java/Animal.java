@@ -1,15 +1,17 @@
 public abstract class Animal {
     private String nomAnimal;
-    private enum typeAnimal {
+    protected enum typeAnimal {
         CHIEN,
         CHAT
+    }
+
+    public Animal(String nomAnimal) {
+        this.nomAnimal = nomAnimal;
     }
 
     public String getNomAnimal() {
         return nomAnimal;
     }
 
-    public String getTypeAnimal() {
-        return typeAnimal.valueOf("CHAT").toString();
-    }
+    public abstract String getTypeAnimal();
 }
