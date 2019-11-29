@@ -1,7 +1,13 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Secteur {
+
+    private static final Logger LOGGER = LogManager.getLogger(Secteur.class.getName());
+
     /* Attributs énoncés */
     private enum typeAnimauxDansSecteur {
         CHIEN,
@@ -49,7 +55,7 @@ public class Secteur {
             }
             return true;
         } catch (LimiteVisiteurException e) {
-            e.printStackTrace();
+            LOGGER.error("Exception Limite Visiteur");
             return false;
         }
     }

@@ -1,11 +1,12 @@
 Secteur$typeAnimauxDansSecteur.class
-Lion.class
-Secteur.class
 App.class
-Animal$typeAnimal.class
-Animal.class
-Chien.class
 Chat.class
 Zoo.class
 AnimalDansMauvaisSecteurException.class
+Lion.class
+ComparatorSecteur.class
+Secteur.class
+Animal$typeAnimal.class
+Animal.class
+Chien.class
 LimiteVisiteurException.class

@@ -17,6 +17,10 @@ public class Zoo {
         return secteurAnimaux.size();
     }
 
+    public List<Secteur> getSecteurAnimaux() {
+        return secteurAnimaux;
+    }
+
     public void nouveauVisiteur() throws LimiteVisiteurException {
         if (visiteurs++ > limiteVisiteurs) {
             throw new LimiteVisiteurException();
