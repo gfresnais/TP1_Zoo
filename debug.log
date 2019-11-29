@@ -1,3 +1,8 @@
-2019-11-29 10:25:47.951 [main] DEBUG TestZoo - Test Limite Visiteur
-2019-11-29 10:25:47.961 [main] DEBUG TestZoo - Test Ajout Lion
-2019-11-29 10:25:47.963 [main] DEBUG TestZoo - Test Comparator
+2019-11-29 10:42:44.167 [main] DEBUG TestZoo - Hello there!
+2019-11-29 10:42:44.170 [main] INFO  TestZoo - Hello there!
+2019-11-29 10:42:44.170 [main] WARN  TestZoo - Hello there!
+2019-11-29 10:42:44.171 [main] ERROR TestZoo - Hello there!
+2019-11-29 10:42:44.172 [main] FATAL TestZoo - Hello there!
+2019-11-29 10:42:44.174 [main] DEBUG TestZoo - Test Limite Visiteur
+2019-11-29 10:42:44.181 [main] DEBUG TestZoo - Test Ajout Lion
+2019-11-29 10:42:44.181 [main] DEBUG TestZoo - Test Comparator

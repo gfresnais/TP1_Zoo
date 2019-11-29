@@ -90,4 +90,15 @@ public class TestZoo {
         assertEquals("Brutus", chien.getNomAnimal());
         assertEquals("CHIEN", chien.getTypeAnimal());
     }
+
+    @Test
+    public final void testLogs() {
+        String message = "Hello there!";
+        LOGGER.trace(message);
+        LOGGER.debug(message);
+        LOGGER.info(message);
+        LOGGER.warn(message);
+        LOGGER.error(message);
+        LOGGER.fatal(message);
+    }
 }

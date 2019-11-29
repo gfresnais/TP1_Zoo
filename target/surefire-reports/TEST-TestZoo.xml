@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestZoo" time="0.017" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="TestZoo" time="0.017" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
@@ -56,8 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="TestZoo" name="testLimiteVisiteur" time="0.017"/>
+  <testcase classname="TestZoo" name="testLogs" time="0.011"/>
+  <testcase classname="TestZoo" name="testLimiteVisiteur" time="0.005"/>
   <testcase classname="TestZoo" name="testAjoutLion" time="0"/>
-  <testcase classname="TestZoo" name="testCompareSecteur" time="0"/>
+  <testcase classname="TestZoo" name="testCompareSecteur" time="0.001"/>
   <testcase classname="TestZoo" name="testCreationAnimal" time="0"/>
 </testsuite>
